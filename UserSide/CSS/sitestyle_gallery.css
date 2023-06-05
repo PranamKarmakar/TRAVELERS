@@ -1,0 +1,30 @@
+/* Style sheet for gallery section */
+.card {
+    width: 300px;
+    margin-bottom: 20px;
+    
+  }
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  .card-body {
+    padding: 20px;
+  }
+  .card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .card-text {
+    font-size: 14px;
+    color: #550b0b;
+    margin-bottom: 20px;
+  }
+  .btn {
+    font-size: 14px;
+    padding: 10px 20px;
+    background-color: #081b6e1a;
+    border-color: #05063a;
+    border-width: 1px;
+    color: blue;
+  }

@@ -1,0 +1,41 @@
+.hero {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 100px;
+    height: 570px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 20px ;
+}
+
+.hero p {
+    font-size: 24px;
+    color: #c5390f;
+    margin-bottom: 40px ;
+}
+
+.hero .btn {
+    font-size: 18px;
+    padding: 15px 30px;
+    background-color: #081b6e1a;
+    color: blue;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 4px;
+    border-color: #05063a;
+}
+
+#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+
+
+ 

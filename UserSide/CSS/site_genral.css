@@ -1,0 +1,78 @@
+.container {
+  padding: 50px;
+}
+
+body {
+  background-color: skyblue;
+}
+
+
+@media (max-width: 419px) {
+  .hero {
+    height: 300px;
+  }
+}
+
+/* Adjust services layout for smaller screens */
+@media (max-width: 419px) {
+  .services-poster {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .col-md-4 {
+    margin-bottom: 20px;
+  }
+}
+
+/* Adjust card layout for smaller screens */
+@media (max-width: 419px) {
+  .card {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .card-img-top,
+  .video-container {
+    width: 100%;
+    height: auto;
+  }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .card-img-top,
+  .video-container {
+    width: 300px;
+    height: auto;
+  }
+
+  /* Style sheet for gallery section */
+  .card {
+    width: 200px;
+    margin-bottom: 5px;
+
+  }
+
+  .card img {
+    width: auto;
+    height: 150px;
+    object-fit: cover;
+  }
+
+}
+
+.no-select {
+  -webkit-user-select: none;
+  /* Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE/Edge */
+  user-select: none;
+  /* Standard */
+}

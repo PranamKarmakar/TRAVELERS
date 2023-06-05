@@ -1,0 +1,49 @@
+.services-poster {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .service-icon {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+
+  .service-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .service-description {
+    font-size: 16px;
+    color: #6c757d;
+    margin-bottom: 20px;
+  }
+
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+
+  
+  .btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+
+
+  #progressBar {
+    width: 100%;
+    height: 10px;
+    background-color: #ccc;
+    cursor: pointer;
+  }
+
+  
+#progressBar .progress {
+    width: 0%;
+    height: 100%;
+    background-color: #0f0;
+  }
